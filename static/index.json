@@ -1,0 +1,61 @@
+{
+    "code": "200",
+    "message": "requestOK",
+    "data": {
+        "tabBarList": [{
+            "name": "关注",
+            "id": "guanzhu"
+        }, {
+            "name": "推荐",
+            "id": "tuijian"
+        }, {
+            "name": "最新",
+            "id": "tiyu"
+        }, {
+            "name": "前端",
+            "id": "redian"
+        }, {
+            "name": "大数据",
+            "id": "caijing"
+        }, {
+            "name": "区块链",
+            "id": "yule"
+        }, {
+            "name": "人工智能",
+            "id": "junshi"
+        }, {
+            "name": "物联网",
+            "id": "lishi"
+        }, {
+            "name": "移动开发",
+            "id": "bendi"
+        }],
+        "articleList": [{
+            "datetime": "40分钟前",
+            "article_type": "0",
+            "title": "uni-app行业峰会频频亮相，开发者反响热烈!",
+            "source": "DCloud",
+            "comment_count": "639"
+        }, {
+            "datetime": "一天前",
+            "article_type": "2",
+            "title": "中国技术界小奇迹：HBuilder开发者突破200万",
+            "image_url": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg?imageView2/3/w/200/h/100/q/90",
+            "source": "DCloud",
+            "comment_count": "11395"
+        }, {
+            "article_type": "3",
+            "image_list": [{
+                "url": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/cbd.jpg?imageView2/3/w/200/h/100/q/90"
+            }, {
+                "url": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/muwu.jpg?imageView2/3/w/200/h/100/q/90"
+            }, {
+                "url": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/shuijiao.jpg?imageView2/3/w/200/h/100/q/90"
+            }],
+            "datetime": "5分钟前",
+            "title": "uni-app 支持使用 npm 安装第三方包，生态更趋丰富",
+            "source": "DCloud",
+            "comment_count": "11"
+        }]
+    }
+}

@@ -1,0 +1,74 @@
+{
+    "pages": [
+        //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+        {
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTextStyle": "black",
+                "navigationBarTitleText": "首页",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleView": false
+                }
+            }
+        },
+         {
+            "path": "pages/blogging/category/category",
+            "style": {
+                "navigationBarTitleText": "选择板块",
+                "navigationStyle": "custom",
+                "app-plus": {
+                    "titleView": false
+                }
+            }
+        },
+        {
+            "path": "pages/blogging/blogging",
+            "style": {
+                "navigationBarTextStyle": "black",
+                "navigationBarTitleText": "发布博文"
+            }
+        },
+        {
+            "path": "pages/index/detail/detail",
+            "style": {
+                "navigationBarTitleText": "博文详情",
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [{
+                                "type": "share"
+                            },
+                            {
+                                "type": "favorite"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#7A7E83",
+        "borderStyle": "black",
+        "backgroundColor": "#F8F8F8",
+        "list": [{
+                "pagePath": "pages/index/index",
+                "iconPath": "static/tabBar/homepage.png",
+                "selectedIconPath": "static/tabBar/homepage_fill.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/blogging/category/category",
+                "iconPath": "static/tabBar/brush.png",
+                "selectedIconPath": "static/tabBar/brush_fill.png",
+                "text": "发帖"
+            }
+        ]
+    }
+}

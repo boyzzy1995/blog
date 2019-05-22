@@ -1,0 +1,9 @@
+{
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "首页",
+  "navigationStyle": "custom",
+  "titleView": false,
+  "usingComponents": {
+    "media-list": "/components/tab-nvue/mediaList"
+  }
+}

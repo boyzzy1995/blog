@@ -1,0 +1,125 @@
+{
+    "code": "200",
+    "message": "requestOK",
+    "data": {
+        "categoryList": [{
+            "NAME": "Web开发",
+            "subCategoryList": [{
+                "NAME": "HTML(CSS)"
+            }, {
+                "NAME": "ASP"
+            }, {
+                "NAME": "跨浏览器开发"
+            }, {
+                "NAME": "IIS"
+            }, {
+                "NAME": "Apache"
+            }]
+        }, {
+            "NAME": "移动开发",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "站务专区",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "硬件/嵌入开发",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": ".NET技术",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "Web开发",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "移动开发",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "PHP",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "C++ Builder",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "VB",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "培训认证",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "Linux/Unix社区",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "其他开发语言",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "Orcale",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "企业IT",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }, {
+            "NAME": "Java",
+            "subCategoryList": [{
+                "NAME": "vue"
+            }, {
+                "NAME": "react"
+            }]
+        }]
+    }
+}

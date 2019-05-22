@@ -1,0 +1,27 @@
+{
+    "code": "200",
+    "message": "requestOK",
+    "data": {
+        "commentList": [{
+            "avatar": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png",
+            "userName": "曹操",
+            "content": "阿里巴巴网络技术有限公司（简称：阿里巴巴集团）是以曾担任英语教师的马云为首的18人于1999年在浙江杭州创立的公司。",
+            "dateTime": "1分钟前"
+        }, {
+            "avatar": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png",
+            "userName": "刘备",
+            "content": "阿里巴巴集团经营多项业务，另外也从关联公司的业务和服务中取得经营商业生态系统上的支援。",
+            "dateTime": "刚刚"
+        }, {
+            "avatar": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png",
+            "userName": "关羽",
+            "content": "阿里巴巴集团经营多项业务，另外也从关联公司的业务和服务中取得经营商业生态系统上的支援。",
+            "dateTime": "2分钟前"
+        }, {
+            "avatar": "https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png",
+            "userName": "张飞",
+            "content": "阿里巴巴网络技术有限公司（简称：阿里巴巴集团）是以曾担任英语教师的马云为首的18人于1999年在浙江杭州创立的公司。",
+            "dateTime": "2天前"
+        }]
+    }
+}

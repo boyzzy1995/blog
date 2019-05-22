@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/blogging/category/category",
+    "pages/blogging/blogging",
+    "pages/index/detail/detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#7A7E83",
+    "borderStyle": "black",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabBar/homepage.png",
+        "selectedIconPath": "static/tabBar/homepage_fill.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/blogging/category/category",
+        "iconPath": "static/tabBar/brush.png",
+        "selectedIconPath": "static/tabBar/brush_fill.png",
+        "text": "发帖"
+      }
+    ]
+  },
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "uniapp-blog",
+  "compilerVersion": "1.9.8",
+  "usingComponents": {
+    "page-head": "/components/page-head"
+  }
+}

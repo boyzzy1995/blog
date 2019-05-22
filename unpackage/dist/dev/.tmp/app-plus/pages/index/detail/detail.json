@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "博文详情",
+  "titleNView": {
+    "buttons": [
+      {
+        "type": "share"
+      },
+      {
+        "type": "favorite"
+      }
+    ]
+  },
+  "usingComponents": {
+    "u-parse": "/components/uParse/src/wxParse"
+  }
+}
