@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+        <meta http-equiv="pragma" content="no-cache">
+        <meta http-equiv="cache-control" content="no-cache">
+        <meta http-equiv="expires" content="">
+        <title>发布博文</title>
+        <link href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.8.11/summernote.css" rel="stylesheet">
+        <link href="../../css/weui/weui.css" rel="stylesheet">
+        <link href="../../css/common.css" rel="stylesheet">
+        <link href="blogging.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.js"></script>
+        <script src="../../js/summernote/summernote_0.8.11.js"></script>
+        <script src="../../js/summernote/summernote-zh-CN.js"></script>
+        <script src="https://js.cdn.aliyun.dcloud.net.cn/dev/uni-app/uni.webview.1.5.0.js"></script>
+        <script src="../../js/common.js"></script>
+    </head>
+    <body>
+        <div id="app">
+            <div class="top-panel">
+                <div>{{fontCount}}字</div>
+                <div @click="sumbit">发布</div>
+            </div>
+            <div class="container">
+                <textarea id="textarea" class="text-area" placeholder="请输入标题" v-model="formData.title"></textarea>
+                <div class="content">
+                    <textarea id="summernote" name="editordata" placeholder="请输入内容"></textarea>
+                </div>
+            </div>
+            <div class="bottom-panel">
+                <div class="bottom-panel-left">
+                    <img src="../../img/blogging/folder.png" class="icon-folder" style="width: .25rem;margin-right: .1rem;"/> 
+                    <span>{{category}}</span>
+                </div>
+            </div>
+        </div>
+        <script src="blogging.js"></script>
+    </body>
+</html>

@@ -1,0 +1,88 @@
+.top-panel {
+    display: flex;
+    justify-content: space-between;
+    padding: .15rem;
+    margin: 0;
+    border-bottom: 1px solid #eee;
+}
+
+.top-panel div:first-child {
+    color: #666;
+}
+
+.top-panel div:last-child {
+    font-size: .25rem;
+    color: red;
+}
+
+.container {
+    margin: 1px 0 0 0;
+    padding: 0;
+}
+
+.text-area {
+    width: 100%;
+    font-size: .5rem;
+    color: #666;
+    letter-spacing: .02rem;
+    height: .8rem;
+    resize: none;
+    overflow:hidden;
+    border: 0;
+    padding: 0 .18rem;
+    display: flex;
+    line-height: .8rem;
+}
+
+.text-area:focus {
+    outline: none;
+}
+/**
+ * 去掉框架中需要的编辑元素
+ */
+.note-fontname, .note-resizebar, 
+.note-status-output, .note-statusbar,
+.note-table{
+    display: none !important;
+}
+
+.note-editor.note-frame {
+    border-color: #ddd;
+    border-bottom: 0px;
+    border-radius: initial;
+    box-shadow: initial;
+}
+
+.note-editable {
+    -webkit-overflow-scrolling : touch;
+}
+
+.modal {
+    top: 25%;
+}
+
+.bottom-panel {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    bottom: 0;
+    border-top: 1px solid #eee;
+    padding: .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+}
+
+.icon-folder {
+    width: .25rem;
+}
+
+.icon-arrow-right {
+    width: .25rem;
+}
+
+.bottom-panel-left {
+    display: flex;
+    align-items: center;
+}
